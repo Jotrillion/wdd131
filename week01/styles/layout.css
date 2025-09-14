@@ -87,6 +87,7 @@ body {
     background-color: #D3D3D3;
     color: #333;
     grid-column: 1/2;
+
 }
 
 .sidebar-title {
@@ -106,3 +107,4 @@ body {
 
     margin-top: auto;
 }
+

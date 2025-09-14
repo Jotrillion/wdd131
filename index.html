@@ -4,11 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Josaphat Ngandu</title>
+    <meta name="description"
+        content="A portfolio of WDD 131 – Dynamic Web Fundamentals projects by Josaphat Ngandu, showcasing skills in HTML, CSS, and dynamic web programming.">
+    <meta name="author" content="Josaphat Ngandu">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    WDD131 - Josaphat Ngandu
+
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals – Josaphat Ngandu</span>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="https://www.linkedin.com/in/j-djany-elyon-llsmith-ngandu-llm-msc-mba-b7a10756"
+                        target="_blank">LinkedIn</a></li>
+                <li> <a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                        target="_blank">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-wrapper">
+        <main>
+            <section class="card about-me">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-wrapper">
+                    <div class="card-content about-text">
+                        <p>
+                            My name is Josaphat Ngandu. I was born in DRC and live with my family in Kinshasa. I am
+                            currently
+                            working as a software developer and I love spending time with them. I love to travel and I
+                            love
+                            to
+                            learn new things.
+                        </p>
+                        <h3>Kinshasa, DR Congo</h3>
+                    </div>
+                    <div class="about-photo">
+                        <img src="images/profile.jpg" alt="A profile picture of Josaphat Ngandu" width="150"
+                            height="200" class="attop-right-img">
+                    </div>
+                </div>
+
+                <div class="flag-wrapper">
+                    <div class="flag-section">
+                        <img src="images/drc-flag.png" alt="Official Flag of DR Congo" width="100" height="75">
+                        <p class="flag-caption"> <em>Official Flag of Drc</em></p>
+                    </div>
+
+                    <div class="flag-text">
+                        <p>
+                            DR Congo is the second-largest country in Africa by area and is rich in natural resources.
+                            It is known for its diverse wildlife, including gorillas, and the Congo River.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="card web-resources">
+                <h2 class="sidebar-title">Web Dev Resources</h2>
+                <ul class="resource-list">
+                    <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                    <li><a href="https://via.placeholder.com/150" target="_blank">Image Placeholder</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>
+                &copy;
+                <span id="currentyear"></span> <span>&#x1F499;</span> Josaphat Ngandu <span>&#x1F499;</span>
+                DR Congo
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+
+
+    </div>
 </body>
 
 </html>
