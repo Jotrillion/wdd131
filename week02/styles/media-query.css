@@ -1,0 +1,21 @@
+body{
+    font-family: "roboto", sans-serif;
+}
+header, footer, main {
+    width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: lightblue;
+        /* light gray, thin border */
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+section {
+    
+    padding: 10px;
+    background-color: white;
+}
