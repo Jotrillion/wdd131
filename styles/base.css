@@ -56,9 +56,9 @@
  }
 
  .content-wrapper {
-     
+     display: grid; 
      padding: 0;
-     grid-template-columns: 2fr 1fr;
+     grid-template-columns: auto 1fr;
      flex-grow: 1;
  }
 
