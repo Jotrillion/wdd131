@@ -121,3 +121,6 @@ figcaption {
 .heading.hide {
     display: none;
 }
+h2 {
+    display: none;
+}

@@ -15,8 +15,7 @@ body {
         gap: 20px;
         align-items: center;
         margin: 0;
-        
-        
+                 
 
     }
 
@@ -107,6 +106,9 @@ body {
             flex-direction: row;
             align-items: center;
             width: auto;
-        }  
+        } 
+      h2 {
+            display: none;
+                }
             
 }
