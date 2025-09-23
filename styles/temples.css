@@ -1,0 +1,123 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+    .image-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        /* Adjust the gap as needed */
+    }
+        main {
+            max-width: 200px;
+            margin: 0 auto;
+        }
+
+img {
+    width: 180px;
+    /* set your desired width */
+    height: 150px;
+    /* set your desired height */
+    object-fit: cover;
+    /* ensures the image fills the area without distortion */
+
+    /* optional: for rounded corners */
+}
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5px;
+
+}
+.head {
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.content-wrapper {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    
+}
+.site-header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 0;
+    
+    
+
+}
+.site-footer {
+    background-color: #4B0082;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+#menu.show::before {
+    content: "X";
+    
+}
+.heading {
+    text-align: center;
+
+}
+.nav-bar a {
+    color: #eee;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.nav-bar a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    border: 1px solid white;
+    color: yellow;
+}
+.show li {
+    display: block;
+}
+.nav-bar {
+    display: none;
+    background-color: #4B0082;
+    
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    
+}
+.nav-bar.show {
+    display: flex;
+
+}
+.heading.hide {
+    display: none;
+}
