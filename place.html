@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WDD 131- A COUNTRY</title>
+    <meta name="description"
+        content="it is all about a country for WDD 131 – Dynamic Web Fundamentals projects by Josaphat Ngandu, showcasing skills in HTML, CSS, and dynamic web programming.">
+    <meta name="author" content="Josaphat Ngandu">
+    <link rel="icon" href=" " type="image/png">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+
+</head>
+
+<body>
+    <HEader>
+        <H1>Democratic Republic Of Congo</H1>
+        <div class="nothing"></div>
+    </HEader>
+
+    <div>
+        <main class="main-content">
+            <div class="hero">
+                <picture>
+                    <source srcset="images/placemonkey-large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/placemonkey-meduim.webp" media="(min-width: 500px)">
+                    <img src="images/placemonkey-small.webp" alt="monkeys" width="500" height="250">
+                </picture>
+            </div>
+            <div class="nothing-two"></div>
+            <div>
+                <div class="data-section">
+                    <div class="data-header">
+                        <h2>Data</h2>
+                    </div>
+                    <ul class="data-list">
+                        <li><span class="label">Area:</span> <span class="value">2,345,409 sq km</span></li>
+                        <li><span class="label">Population:</span> <span class="value">112,832,473</span></li>
+                        <li><span class="label">Capital:</span> <span class="value">Kinshasa</span></li>
+                        <li><span class="label">Languages:</span> <span class="value">Lingala, French</span></li>
+                        <li><span class="label">Currency:</span> <span class="value">Congolese Franc</span></li>
+                        <li><span class="label">Time Zone:</span> <span class="value">UTC+1</span></li>
+                        <li><span class="label">Calling Code:</span> <span class="value">+243</span></li>
+                        <li><span class="label">Internet TLD:</span> <span class="value">.cd</span></li>
+                    </ul>
+                </div>
+                <div class="weather-section">
+                    <div class="weather-header">
+                        <h2>Weather</h2>
+                        <div class="weather-icon">
+                            &#9925; </div>
+                    </div>
+                    <img src="images/weather.svg" alt="weather-icon" class="weathericon">
+                    <ul class="weather-details">
+                        <li><span class="label">Temperature:</span> <span class="value">10 °C</span></li>
+                        <li><span class="label">Conditions:</span> <span class="value">Partly Cloudy</span></li>
+                        <li><span class="label">Wind:</span> <span class="value">5 km/h</span></li>
+                        <li><span class="label">Wind Chill:</span> <span id="windchill"></span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </main>
+        <footer class="site-footer">
+            <p>
+                &copy;
+                <span id="currentyear"></span> <span>&#x1F499;</span> Josaphat Ngandu <span>&#x1F499;</span>
+                D.R.Congo
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

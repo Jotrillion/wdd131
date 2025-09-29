@@ -1,0 +1,203 @@
+@media screen and (min-width: 768px) {
+    body {
+        font-family: "Open Sans", sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    :root {
+        --primary-color: #A00000;
+        --secondary-color: green;
+        --text-color: white;
+    }
+
+    body>div {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .weather-section img {
+        display: none;
+    }
+
+    .main-content {
+        position: relative;
+        background-image: url('../images/placemonkey-large.webp');
+        
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .weather-icon {
+        display: none;
+    }
+
+    /*.weather-header{
+          display: flex; 
+          flex-wrap: wrap;
+          justify-content: space-between; 
+          align-items: flex-start;
+         box-sizing: border-box;
+            background-color: var(--secondary-color);
+           padding: 10px;
+        }*/
+    .weather-section h2::after {
+       content:"        ⛅";
+       vertical-align: middle;
+       margin-right: 20px;
+       font-size: 1.2em;
+      
+    } 
+    .weather-header {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        padding: 10px;
+        
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0;
+    }  
+    .weather-details{
+        padding: 50px;
+        background-color: var(--text-color);
+        padding-top: 10px;
+    }
+    .data-header{
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .data-list {
+     padding: 50px;
+        background-color: var(--text-color);
+        padding-top: 10px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: var(--text-color);
+        background-color: var(--primary-color);
+        width: 100%;
+        padding: 40px;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .nothing {
+        padding: 0;
+        background-color: var(--secondary-color);
+        display: block;
+        width: 100%;
+        height: 10px;
+        margin: 0;
+    }
+
+    .nothing-two {
+        display: none;
+    }
+
+    .data-section, .weather-section{
+        text-align: left;
+        position: absolute;
+        width: 300px;
+        background-color: var(--text-color);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         border-radius: 5px;
+    }
+    
+    .data-section{
+        
+        top: 20px;
+        left: 20px;
+    }
+    .weather-section{
+       bottom: 20px; 
+         right: 20px;
+        
+    }
+    h2{
+        color: var(--text-color);
+        
+        padding: 10px 15px;
+        margin: 0;
+        text-align: left;
+        margin: 0;
+    }
+
+    .data-list,
+    .weather-details {
+        list-style-type: none;
+        padding: 15px;
+        margin: 0;
+        color: #333;
+
+    }
+
+    .site-footer {
+        background-color: #A00000;
+        color: #fff;
+        text-align: center;
+        padding: 50px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 0;
+
+    }
+        .data-section h2 {
+            
+            border-top-left-radius: 5px;/ Adjust padding for better look / / Only round the top corners of the header bar */ border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+           .weather-section h2 {
+               
+               /* Adjust padding for better look /
+    / Only round the top corners of the header bar */
+               border-top-left-radius: 5px;
+               border-top-right-radius: 5px;
+           }
+        .data-list li,
+        .weather-details li {
+            display: flex; 
+            justify-content: space-between;
+            
+             margin-bottom: 5px;
+              font-size: 0.95rem;
+        }
+        .data-list .label,
+        .weather-details .label {
+            font-weight: 600;
+            
+    padding-right: 10px; 
+        }
+        
+    .data-list {
+    padding-bottom: 20px; 
+        }
+
+
+}
