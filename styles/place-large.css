@@ -175,8 +175,7 @@
         }
            .weather-section h2 {
                
-               /* Adjust padding for better look /
-    / Only round the top corners of the header bar */
+           
                border-top-left-radius: 5px;
                border-top-right-radius: 5px;
            }
